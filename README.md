@@ -15,12 +15,12 @@ Our paper assesses performance on 12 transfer tasks using the cross-scene datase
 #### Cross-sensor dataset
 * NWPU-RESISC45 <-> NaSC-TG2
 * WHU-RS19 <-> EuroSAT 
-### Usage
+## Usage
 * Clone the Repository:
 ```ruby
   git clone https://github.com/ManelKhazriKhlifi/CAB-SFDA.git
 ```
-### Citation
+## Citation
 
 If you use any part of this work please cite using the following Bibtex format:
 ```
