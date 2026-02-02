@@ -3,7 +3,12 @@ This repository contains the implementation of "Class-Aware Balanced Source-Free
 
 Our paper suggests a novel technology for source-free domain adaptation on small datasets. This technology integrates class-balanced memory, prototype attraction, weak/strong consistency, and information maximization with a frozen classifier in a source-free setting to tackle the challenges of domain shift in Remote Sensing (RS) scene classification.
 ## Results
-![tree](assets/tsne_category_beforeG2N.png)
+<p align="center">
+  <img src="assets/tsne_category_beforeG2N.png" width="300"/>
+  <img src="assets/tsne_category_afterG2N.png" width="300"/>
+  <img src="assets/tsne_domain_beforeG2N.png" width="300"/>
+</p>
+
 ## Datasets
 Our paper assesses performance on 12 transfer tasks using the cross-scene dataset, as well as two transfer tasks utilizing the cross-sensor dataset.
 #### Cross-scene dataset
