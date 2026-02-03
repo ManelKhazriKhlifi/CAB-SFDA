@@ -9,6 +9,8 @@ Our paper suggests a novel technology for source-free domain adaptation on small
 | CLRS ->  | 95.48 | - | 87.97 |85.95|
 | MLRSN -> | 87.55 | 84.96 | - |84.88|
 | RSSCN7 -> | 94.39  | 91.11 | 96.48  |-|
+
+The figure below shows the t-SNE visualization of remote sensing datasets, specifically the transfer from NWPU-RESISC45 to NaSC-TG2, where NWPU-RESISC45 is used as the source domain and NaSC-TG2 as the target domain. This figure illustrates a representative example of the obtained results.
 <p align="center">
   <img src="assets/tsne_category_beforeG2N.png" width="150"/>
   <img src="assets/tsne_category_afterG2N.png" width="150"/>
