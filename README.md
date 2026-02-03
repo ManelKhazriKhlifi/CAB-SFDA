@@ -5,10 +5,10 @@ Our paper suggests a novel technology for source-free domain adaptation on small
 ## Results
 | Datasets | AID | CLRS | MLRSN | RSSCN7 | 
 | -------- | ----------- | ----------- | ----------- |-----------|
-| AID -> |  | 91.27 | 85.97 |81.90|
-| CLRS ->  | 95.48 |  | 87.97 |85.95|
-| MLRSN -> | 87.55 | 84.96 |  |84.88|
-| RSSCN7 -> | 94.39  | 91.11 | 96.48  ||
+| AID -> | - | 91.27 | 85.97 |81.90|
+| CLRS ->  | 95.48 | - | 87.97 |85.95|
+| MLRSN -> | 87.55 | 84.96 | - |84.88|
+| RSSCN7 -> | 94.39  | 91.11 | 96.48  |-|
 <p align="center">
   <img src="assets/tsne_category_beforeG2N.png" width="150"/>
   <img src="assets/tsne_category_afterG2N.png" width="150"/>
