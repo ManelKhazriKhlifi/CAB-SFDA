@@ -31,7 +31,7 @@ Our paper assesses performance on 12 transfer tasks using the cross-scene datase
 * NWPU-RESISC45 <-> NaSC-TG2
 * WHU-RS19 <-> EuroSAT
 #### Shared classes
-The table below presents the classes shared by AID, CLRS, MLRSN, and RSSCN7, as well as their specific label assignments in each dataset.
+The tables below summarize the shared classes among all considered datasets and their corresponding label assignments.
 <table width="100%">
 <tr>
 
