@@ -1,9 +1,9 @@
 ## CAB-SFDA 
 This repository contains the implementation of "Class-Aware Balanced Source-Free Domain Adaptation for Remote Sensing Scene Classification" paper. 
 
-Our paper suggests a novel technology for source-free domain adaptation on small datasets. This technology integrates class-balanced memory, prototype attraction, weak/strong consistency, and information maximization with a frozen classifier in a source-free setting to tackle the challenges of domain shift in Remote Sensing (RS) scene classification.
+Our paper suggests a novel technology for source-free domain adaptation on small datasets. This technology integrates class-balanced memory, prototype attraction, weak/strong consistency, and information maximization with a frozen classifier in a source-free setting to tackle the challenges of domain shift in Remote Sensing scene classification.
 ## Results
-
+The bar chart presents the cross-dataset classification accuracy (%) for different source-target dataset pairs. Each bar corresponds to the accuracy achieved when a model trained on one dataset is evaluated on another. Overall, the proposed method attains a mean accuracy of 88.99%, outperforming state-of-the-art approaches by 3.05%.
 ![Results](assets/accuracy.png)
 
 The figure below shows the t-SNE visualization of remote sensing datasets, specifically the transfer from NWPU-RESISC45 to NaSC-TG2, where NWPU-RESISC45 is used as the source domain and NaSC-TG2 as the target domain. This figure illustrates a representative example of the obtained results.
