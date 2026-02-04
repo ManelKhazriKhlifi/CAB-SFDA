@@ -38,14 +38,14 @@ The table below presents the classes shared by AID, CLRS, MLRSN, and RSSCN7, as 
 <td valign="top">
   <b>AID, CLRS, MLRSN, and RSSCN7 </b>
 | Shared Classes | AID | CLRS | MLRSN | RSSCN7 | 
-| -------- | ----------- | ----------- | ----------- |-----------|
-|Farmland|Farmland|farmland|farmland|Field|
-|Forest|Forest|forest|forest|Forest|
-|Industrial| Industrial|industrial|industrial_area|Industry|
-|Meadow|Meadow|meadow|meadow|Grass|
-|Parking|Parking|parking|parking_lot|Parking|
-| Residential|DenseResidential|residential|dense_residential_area|Resident|
-| River | River|river|river|River|
+| -------- ------| ----------- | ----------- | ----------- |-----------|
+|Farmland  |Farmland     |farmland     |farmland     |Field|
+|Forest    |Forest       |forest       |forest       |Forest|
+|Industrial| Industrial  |industrial   |industrial_area|Industry|
+|Meadow    |Meadow       |meadow       |meadow       |Grass|
+|Parking     |Parking    |parking      |parking_lot  |Parking|
+| Residential|DenseResidential         |residential  |dense_residential_area|Resident|
+| River    | River       |river        |river        |River|
 </td>
 
 <td valign="top">
