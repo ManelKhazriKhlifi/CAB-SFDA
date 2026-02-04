@@ -3,12 +3,8 @@ This repository contains the implementation of "Class-Aware Balanced Source-Free
 
 Our paper suggests a novel technology for source-free domain adaptation on small datasets. This technology integrates class-balanced memory, prototype attraction, weak/strong consistency, and information maximization with a frozen classifier in a source-free setting to tackle the challenges of domain shift in Remote Sensing (RS) scene classification.
 ## Results
-| Datasets | AID | CLRS | MLRSN | RSSCN7 | 
-| -------- | ----------- | ----------- | ----------- |-----------|
-| AID -> | - | 91.27 | 85.97 |81.90|
-| CLRS ->  | 95.48 | - | 87.97 |85.95|
-| MLRSN -> | 87.55 | 84.96 | - |84.88|
-| RSSCN7 -> | 94.39  | 91.11 | 96.48  |-|
+
+![Results](assets/accuracy.png)
 
 The figure below shows the t-SNE visualization of remote sensing datasets, specifically the transfer from NWPU-RESISC45 to NaSC-TG2, where NWPU-RESISC45 is used as the source domain and NaSC-TG2 as the target domain. This figure illustrates a representative example of the obtained results.
 <p align="center">
