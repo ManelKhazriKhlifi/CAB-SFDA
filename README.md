@@ -29,7 +29,55 @@ Our paper assesses performance on 12 transfer tasks using the cross-scene datase
 * MLRSN <-> RSSCN7
 #### Cross-sensor dataset
 * NWPU-RESISC45 <-> NaSC-TG2
-* WHU-RS19 <-> EuroSAT 
+* WHU-RS19 <-> EuroSAT
+#### Shared classes
+The table below presents the classes shared by AID, CLRS, MLRSN, and RSSCN7, as well as their specific label assignments in each dataset.
+<table>
+<tr>
+
+<td valign="top">
+  <b>AID, CLRS, MLRSN, and RSSCN7 </b>
+| Shared Classes | AID | CLRS | MLRSN | RSSCN7 | 
+| -------- | ----------- | ----------- | ----------- |-----------|
+|Farmland|Farmland|farmland|farmland|Field|
+|Forest|Forest|forest|forest|Forest|
+|Industrial| Industrial|industrial|industrial_area|Industry|
+|Meadow|Meadow|meadow|meadow|Grass|
+|Parking|Parking|parking|parking_lot|Parking|
+| Residential|DenseResidential|residential|dense_residential_area|Resident|
+| River | River|river|river|River|
+</td>
+
+<td valign="top">
+<b>NWPU-RESISC45 and NaSC-TG2</b>
+| Shared Classes | NWPU-RESISC45 | NaSC-TG2 | 
+| -------- | ----------- | ----------- | 
+|Beach|beach|beach|
+|CircularFarmland|circular_farmland|circularfarmland|
+|Cloud| cloud|cloud|
+|Desert|desert|desert|
+|Forest|forest|forest|
+|Mountain|mountain|mountain|
+| Rectangular farmland|rectangular_farmland|rectangularfarmland|
+| Residential |dense_residential|residential|
+| River | river|river|
+|Snowberg| snowberg|snowberg|
+</td>
+
+<td valign="top">
+
+<b>WHU-RS19 and EuroSAT</b>
+| Shared Classes | WHU-RS19 | EuroSAT | 
+| -------- | ----------- | ----------- | 
+|Farmland|Farmland|AnnualCrop|
+|Forest||Forest|
+|Industry| Industrial|Industrial|
+|Meadow|Meadow|Pasture|
+|Residential|Residential|Residential|
+| River | River|River|
+</td>
+</tr>
+</table>
 ## Usage
 * Clone the Repository:
 ```ruby
