@@ -32,52 +32,62 @@ Our paper assesses performance on 12 transfer tasks using the cross-scene datase
 * WHU-RS19 <-> EuroSAT
 #### Shared classes
 The table below presents the classes shared by AID, CLRS, MLRSN, and RSSCN7, as well as their specific label assignments in each dataset.
-<table>
+<table width="100%">
 <tr>
 
-<td valign="top">
-  <b>AID, CLRS, MLRSN, and RSSCN7 </b>
-| Shared Classes | AID | CLRS | MLRSN | RSSCN7 | 
-| -------- ------| ----------- | ----------- | ----------- |-----------|
-|Farmland  |Farmland     |farmland     |farmland     |Field|
-|Forest    |Forest       |forest       |forest       |Forest|
-|Industrial| Industrial  |industrial   |industrial_area|Industry|
-|Meadow    |Meadow       |meadow       |meadow       |Grass|
-|Parking     |Parking    |parking      |parking_lot  |Parking|
-| Residential|DenseResidential         |residential  |dense_residential_area|Resident|
-| River    | River       |river        |river        |River|
+<td valign="top" width="33%">
+
+<b>AID, CLRS, MLRSN,and RSSCN7</b>
+<table>
+<tr><th>Shared</th><th>AID</th><th>CLRS</th><th>MLRSN</th><th>RSSCN7</th></tr>
+<tr><td>Farmland</td><td>Farmland</td><td>farmland</td><td>farmland</td><td>Field</td></tr>
+<tr><td>Forest</td><td>Forest</td><td>forest</td><td>forest</td><td>Forest</td></tr>
+<tr><td>Industrial</td><td>Industrial</td><td>industrial</td><td>industrial_area</td><td>Industry</td></tr>
+<tr><td>Meadow</td><td>Meadow</td><td>meadow</td><td>meadow</td><td>Grass</td></tr>
+<tr><td>Parking</td><td>Parking</td><td>parking</td><td>parking_lot</td><td>Parking</td></tr>
+<tr><td>Residential</td><td>DenseResidential</td><td>residential</td><td>dense_residential_area</td><td>Resident</td></tr>
+<tr><td>River</td><td>River</td><td>river</td><td>river</td><td>River</td></tr>
+</table>
+
 </td>
 
-<td valign="top">
+<td valign="top" width="33%">
+
 <b>NWPU-RESISC45 and NaSC-TG2</b>
-| Shared Classes | NWPU-RESISC45 | NaSC-TG2 | 
-| -------- | ----------- | ----------- | 
-|Beach|beach|beach|
-|CircularFarmland|circular_farmland|circularfarmland|
-|Cloud| cloud|cloud|
-|Desert|desert|desert|
-|Forest|forest|forest|
-|Mountain|mountain|mountain|
-| Rectangular farmland|rectangular_farmland|rectangularfarmland|
-| Residential |dense_residential|residential|
-| River | river|river|
-|Snowberg| snowberg|snowberg|
+<table>
+<tr><th>Shared</th><th>NWPU</th><th>NaSC</th></tr>
+<tr><td>Beach</td><td>beach</td><td>beach</td></tr>
+<tr><td>Circular Farmland</td><td>circular_farmland</td><td>circularfarmland</td></tr>
+<tr><td>Cloud</td><td>cloud</td><td>cloud</td></tr>
+<tr><td>Desert</td><td>desert</td><td>desert</td></tr>
+<tr><td>Forest</td><td>forest</td><td>forest</td></tr>
+<tr><td>Mountain</td><td>mountain</td><td>mountain</td></tr>
+<tr><td>Rectangular Farmland</td><td>rectangular_farmland</td><td>rectangularfarmland</td></tr>
+<tr><td>Residential</td><td>dense_residential</td><td>residential</td></tr>
+<tr><td>River</td><td>river</td><td>river</td></tr>
+<tr><td>Snowberg</td><td>snowberg</td><td>snowberg</td></tr>
+</table>
+
 </td>
 
-<td valign="top">
+<td valign="top" width="33%">
 
 <b>WHU-RS19 and EuroSAT</b>
-| Shared Classes | WHU-RS19 | EuroSAT | 
-| -------- | ----------- | ----------- | 
-|Farmland|Farmland|AnnualCrop|
-|Forest||Forest|
-|Industry| Industrial|Industrial|
-|Meadow|Meadow|Pasture|
-|Residential|Residential|Residential|
-| River | River|River|
+<table>
+<tr><th>Shared</th><th>WHU-RS19</th><th>EuroSAT</th></tr>
+<tr><td>Farmland</td><td>Farmland</td><td>AnnualCrop</td></tr>
+<tr><td>Forest</td><td>Forest</td><td>Forest</td></tr>
+<tr><td>Industry</td><td>Industrial</td><td>Industrial</td></tr>
+<tr><td>Meadow</td><td>Meadow</td><td>Pasture</td></tr>
+<tr><td>Residential</td><td>Residential</td><td>Residential</td></tr>
+<tr><td>River</td><td>River</td><td>River</td></tr>
+</table>
+
 </td>
+
 </tr>
 </table>
+
 ## Usage
 * Clone the Repository:
 ```ruby
